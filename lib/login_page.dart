@@ -30,14 +30,14 @@ class _LoginPageState extends State<LoginPage> {
     return Scaffold(
       appBar: AppBar(
         title: Text(isLogin ? "Login" : "Registration"),
-        backgroundColor: Colors.greenAccent,
+        backgroundColor: const Color.fromARGB(255, 105, 180, 203),
       ),
 
       body: Center(
         child: SizedBox(
           width: 330,
           child: Card(
-            color: Colors.greenAccent,
+            color: const Color.fromARGB(255, 105, 226, 240),
             child: Padding(
               padding: const EdgeInsets.all(20.0),
 
